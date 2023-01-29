@@ -1,0 +1,69 @@
+
+/*------------------------------HEADER-----------------------------*/
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 128px;
+}
+
+.header-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 0px;
+}
+
+.header-content, .header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-img {
+    height: auto;
+    width: 30%;
+    margin-top: 32px;
+}
+
+.logo-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.link-container {
+    display: flex;
+    gap: 16px;
+    margin-right: 128px;
+}
+
+.content-img-container {
+    display: flex;
+    margin-left: 128px;
+    margin-right: 128px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-container {
+    max-width: 40%;
+}
+
+.sign-up {
+    background-color: blue;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 25px 5px 25px;
+    margin-top: 10px;
+}
+
