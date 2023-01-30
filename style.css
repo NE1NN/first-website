@@ -1,8 +1,12 @@
 
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
 /*------------------------------HEADER-----------------------------*/
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: grey;
 }
 .header {
     background-color: #1F2937;
@@ -164,4 +168,16 @@ body {
     padding: 5px 30px 5px 30px;
     font-size: 17px;
     border-radius: 7px;
+}
+/*------------------------------FOOTER-----------------------------*/
+.footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+}
+
+.copyright {
+    color: white;
 }
