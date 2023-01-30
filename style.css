@@ -1,7 +1,8 @@
 
 /*------------------------------HEADER-----------------------------*/
-.body {
+body {
     font-family: 'Roboto', sans-serif;
+    background-color: grey;
 }
 .header {
     background-color: #1F2937;
@@ -13,6 +14,7 @@
     font-size: 24px;
     color: #F9FAF8;
     margin-left: 128px;
+    font-weight: bold;
 }
 
 .header-text {
@@ -65,5 +67,60 @@
     border-radius: 5px;
     padding: 5px 25px 5px 25px;
     margin-top: 10px;
+    font-weight: bold;
+}
+/*------------------------------BODY-----------------------------*/
+.body {
+    background-color: white;
+}
+.body-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 50px;
 }
 
+.box {
+    width: 150px;
+    height: 150px;
+    border: 5px solid blue;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.body-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-txt {
+    max-width: 150px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+/*------------------------------QUOTE-----------------------------*/
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-txt {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 100px 100px 25px 100px;
+    max-width: 60%;
+}
+
+.quote-author {
+    display: flex; 
+    align-self: flex-end;
+    margin-right: 310px;
+    margin-bottom: 100px;
+}
